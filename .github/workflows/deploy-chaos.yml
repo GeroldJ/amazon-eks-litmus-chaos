@@ -24,4 +24,4 @@ jobs:
 
       - name: Apply LitmusChaos workflows
         run: |
-          kubectl apply -f chaos-workflows/   # Ordner mit deinen YAML-Dateien
+          kubectl apply -f litmus/250118e5-badc-46fe-996e-f3d5b7f7da1d/test1.yaml
